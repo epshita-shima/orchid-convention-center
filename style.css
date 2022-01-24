@@ -2,13 +2,6 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.btn-book-now{
-    padding: 9px 25px;
-    background: #fff;
-    color: blue;
-    border: none;
-    border-radius: 3px;
-}
 /* heading style start */
 .heading-title{
     font-size: 22;
@@ -24,6 +17,13 @@ body{
 .carosule-width{
     width: 100%;
 }
+.btn-book-now{
+    padding: 9px 25px;
+    background: #fff;
+    color: #dc3545;
+    border: none;
+    border-radius: 3px;
+}
 /* package style start */
 .section-title{
     font-size: 42px;
@@ -38,7 +38,7 @@ body{
     font-weight: 600;
 }
 .fa-check-circle{
-    color: #5243C2;   
+    color: #dc3545;;
 }
 .card-text{
     color: #848199;
@@ -51,8 +51,18 @@ body{
 .btn-chose-plan{
     padding: 10px 35px;
     border: none;
-    background: #F496D1;
-    color: #3F87F5;
+    background: #dc3545;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 1s linear;
+}
+.btn-chose-plan-offer{
+    padding: 10px 35px;
+    border: none;
+    background: #fff;
+    color: #dc3545;
     border-radius: 50px;
     font-size: 14px;
     font-weight: 600;
@@ -60,7 +70,24 @@ body{
 }
 .btn-chose-plan:hover{
     background: #fff;
-    border:1px solid #3F87F5;
+    border:1px solid #dc3545;
+    color:#dc3545; 
+}
+/* testimonial style start */
+.testimonial-bg-gary{
+    background: #f3f3eb;
+}
+.test-carousel-heading{
+    font-size: 20px;
+    font-weight: 600;
+}
+.test-carousel-small-heading{
+    font-size: 16px;
+    font-weight: 600;
+}
+.text-carousel-para{
+    font-size: 12px;
+   font-weight: 600;
 }
 /* footer style start */
 a{
