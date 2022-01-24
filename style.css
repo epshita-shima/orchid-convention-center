@@ -10,7 +10,6 @@ body{
     border-radius: 3px;
 }
 /* heading style start */
-
 .heading-title{
     font-size: 22;
     font-weight: 700;
@@ -24,6 +23,47 @@ body{
 }
 .carosule-width{
     width: 100%;
+}
+/* package style start */
+.section-title{
+    font-size: 42px;
+    font-weight: 700;
+}
+.card{
+    border: none;
+    background: none;
+}
+/* .special-offer{
+    background: cadetblue;
+} */
+.card-title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.fa-check-circle{
+    color: #5243C2;   
+}
+.card-text{
+    color: #848199;
+    font-size: 14px;
+}
+.hot-top{
+    font-size: 10px;
+    font-weight: 600;
+}
+.btn-chose-plan{
+    padding: 10px 35px;
+    border: none;
+    background: #F496D1;
+    color: #3F87F5;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 1s linear;
+}
+.btn-chose-plan:hover{
+    background: #fff;
+    border:1px solid #3F87F5;
 }
 @media screen and (max-width:546px) {
     .heading-title{
