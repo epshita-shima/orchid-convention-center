@@ -33,9 +33,6 @@ body{
     border: none;
     background: none;
 }
-/* .special-offer{
-    background: cadetblue;
-} */
 .card-title{
     font-size: 25px;
     font-weight: 600;
@@ -65,7 +62,36 @@ body{
     background: #fff;
     border:1px solid #3F87F5;
 }
+/* footer style start */
+a{
+    text-decoration: none;
+}
+.btn-apple{
+    width: 65%;
+    background:none;
+    border:1px solid gainsboro;
+    border-radius: 5px;
+    line-height: 1;
+}
+.btn-click{
+    font-size: 8px;
+}
+.btn-design{
+    font-weight: 600;
+    font-size: 10px;
+}
+@media screen and (max-width:768px){
+    .first-order{
+        order: 1;
+    }
+    .second-order{
+        order: 2 ;
+    }
+}
 @media screen and (max-width:546px) {
+    .section-title{
+        font-size: 20px;
+    }
     .heading-title{
         text-align: center;
     }
